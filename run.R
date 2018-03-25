@@ -35,7 +35,7 @@ router$add_route(route, 'main')
 route$add_handler('get', '*', function(request, response, keys, ...) {
   response$type <- 'html'
   response$status <- 200L
-  response$body <- '<h1>All your AI are belong to us</h1>'
+  response$body <- '<h1>Hello Samane</h1>'
   TRUE
 })
 # Then on to the /info route
